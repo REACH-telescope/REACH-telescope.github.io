@@ -128,7 +128,7 @@ function showConferenceProceedings(evt) {
                 var parsed_json = JSON.parse(request.response);
 
                 // Get list of papers
-                var papers = parsed_json.proceedings.reverse();
+                var papers = parsed_json.proceedings;
 
                 // Clear table
                 var table_html = "";
