@@ -13,7 +13,7 @@
 		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
 		</script>
 
-	<title>REACH Collaboration Papers</title>
+	<title>REACH Collaboration Publications</title>
 
 	<script type="text/javascript">
 		function reload_mathjax() {
@@ -29,8 +29,15 @@
 
 <body>
 	<div class="container">
+		<!-- Tab links -->
 		<h1 style="padding-left:40px;padding-right:40px;padding-top:40px;padding-bottom:10px;text-align:center;font-size:400%;font-family:monospace;overflow-wrap:break-word;">
-			<a href="https://www.astro.phy.cam.ac.uk/research/research-projects/reach"><img src="reach-logo_cutout.png" style="vertical-align:middle;height:90px;"> Papers</a></h1>
+			<a href="https://www.astro.phy.cam.ac.uk/research/research-projects/reach"><img src="reach-logo_cutout.png" style="vertical-align:middle;height:90px;"> Publications</a></h1>
+		
+		<div class="tab">
+			<button id="defaultOpen" class="tablinks" onclick="showJournalArticles(event)">Journal Articles</button>
+			<button class="tablinks" onclick="showConferenceProceedings(event)">Conference Proceedings</button>
+		</div>
+
 		<table id="main_table">
 		</table>
 	</div>
