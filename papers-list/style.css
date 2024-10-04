@@ -1,0 +1,98 @@
+body {
+	background-image: url("reach.jpg");
+	font-family: sans-serif;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.container {
+	margin:auto;
+	background-color: gainsboro;
+    min-height: 100vh;
+    width: 80%;
+
+}
+
+.arxiv_item {
+	width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-bottom: 4px solid black;
+	border-top: 4px solid black;
+}
+
+.arxiv_item_w_link {
+	width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-bottom: 4px solid black;
+	border-top: 4px solid black;
+}
+
+.arxiv_item_w_link:hover {
+	background-color:#f6f6f6;
+}
+
+.arxiv_link {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-bottom: 4px solid black;
+}
+
+.title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	font-size: 200%;
+}
+
+
+.author {
+	padding-bottom: 20px;
+	font-size:150%;
+}
+
+.pub {
+	padding-bottom: 10px;
+	font-size:110%;
+	color: darkred;
+}
+
+.date {
+	padding-bottom: 10px;
+	font-size:120%;
+	text-align: right;
+}
+
+.comms {
+	padding-bottom: 10px;
+	font-size: 110%;
+}
+
+.subjs {
+	padding-bottom: 20px;
+	font-size: 110%;
+	font-style: italic;
+}
+
+.links {
+	padding-bottom: 10px;
+	font-size:300%;
+}
+
+a {
+	text-decoration: none;
+	color: steelblue;
+}
+
+a:visited {
+	color: steelblue;
+}
